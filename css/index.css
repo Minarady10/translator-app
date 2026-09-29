@@ -26,15 +26,18 @@
         width: 100%;
     }
     .inptran{
-        flex-direction: column;
+        justify-content: center;
+    height: 47vh;
+    align-items: center;
+    flex-direction: column;
      margin-bottom: 2rem;
-     .one{height:70% ;}
-     .two{height:70% ;}
+     .one{height:20vh ;}
+     .two{height:20vh ;}
     }
     .inpchoose{
         flex-direction: row;
         justify-content: space-around; 
-        margin-top: 2rem;
+       
         .inpone{width: 35%;}
    .inptwo{width: 35%;}
     }
