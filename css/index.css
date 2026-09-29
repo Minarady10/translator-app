@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+.card{
+    width: 50%;
+    height: 70vh;
+}
+.inptran{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+ .inpchoose{
+   justify-content: space-around;
+   .inpone{width: 20%;}
+   .inptwo{width: 20%;}
+} 
+}
+@media (max-width: 992px){
+   .main{
+    .card{
+        width: 100%;
+    }
+    .inptran{
+        flex-direction: column;
+     margin-bottom: 2rem;
+     .one{height:70% ;}
+     .two{height:70% ;}
+    }
+    .inpchoose{
+        flex-direction: row;
+        justify-content: space-around; 
+        margin-top: 2rem;
+        .inpone{width: 35%;}
+   .inptwo{width: 35%;}
+    }
+   }
+}
